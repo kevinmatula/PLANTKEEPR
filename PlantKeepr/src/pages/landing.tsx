@@ -2,11 +2,9 @@ import LandingTaskBar from "../components/LandingTaskbar";
 
 function LandingPage() {
   return (
-    <>
-      <div className="TODO">
-        <LandingTaskBar />
-      </div>
-    </>
+    <div className="landing-container">
+      <LandingTaskBar />
+    </div>
   );
 }
 

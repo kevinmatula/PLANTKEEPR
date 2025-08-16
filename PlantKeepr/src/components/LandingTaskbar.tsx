@@ -1,11 +1,12 @@
 function LandingTaskBar() {
   return (
-    <>
-      <div className="flex tbheading ">
-        <p>Why PlantKeepr?</p>
+    <div className="w-full">
+      <div className="tbheading">
+        <p>Why PlantKeepr</p>
         <p>Behind PlantKeepr</p>
       </div>
-    </>
+      <hr />
+    </div>
   );
 }
 
