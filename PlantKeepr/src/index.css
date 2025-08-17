@@ -27,11 +27,29 @@ h1 {
   justify-content: center;
 }
 
-.tbheading {
+.tbwords {
   display: flex;
   justify-content: center;
   font-size: 2vw;
   line-height: 1.1;
   color: #39c442;
   gap: 10vw;
+}
+
+.landingtb {
+  display: inline;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 3px 4px 0 #94bcff;
+}
+
+button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.tbwords-side {
+  margin-left: auto;
+  padding-right: 1rem;
 }

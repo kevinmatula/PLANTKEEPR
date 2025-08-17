@@ -1,11 +1,11 @@
 function LandingTaskBar() {
   return (
-    <div className="w-full">
-      <div className="tbheading">
-        <p>Why PlantKeepr</p>
-        <p>Behind PlantKeepr</p>
+    <div className="landingtb">
+      <div className="tbwords">
+        <button>Why PlantKeepr</button>
+        <button>Behind PlantKeepr</button>
+        <button className="tbwords-side">Join</button>
       </div>
-      <hr />
     </div>
   );
 }
