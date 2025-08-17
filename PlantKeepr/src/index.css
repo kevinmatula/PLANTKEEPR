@@ -8,17 +8,12 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #f2f2f2;
+  background-color: #f2efe2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 .landing-container {
@@ -27,17 +22,12 @@ h1 {
   justify-content: center;
 }
 
-.tbwords {
+.landingtb {
   display: flex;
   justify-content: center;
   font-size: 2vw;
   line-height: 1.1;
   color: #39c442;
-  gap: 10vw;
-}
-
-.landingtb {
-  display: inline;
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -47,9 +37,16 @@ h1 {
 button:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: #1f9326;
+}
+
+.tbwords-center {
+  display: flex;
+  gap: 10vw;
+  position: absolute;
 }
 
 .tbwords-side {
   margin-left: auto;
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
