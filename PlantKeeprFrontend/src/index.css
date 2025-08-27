@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "meursault-variable", serif;
+  font-variation-settings: "wght" 200, "wdth" 115;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f5f3e9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.landing-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.dash-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.landingtb {
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  line-height: 1.1;
+  color: #39c442;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 3px 4px 0 #94bcff;
+}
+
+button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #1f9326;
+}
+
+.tbwords-center {
+  display: flex;
+  gap: 10vw;
+  position: absolute;
+}
+
+.tbwords-side {
+  margin-left: auto;
+  padding-right: 2rem;
+}
